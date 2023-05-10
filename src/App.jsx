@@ -11,6 +11,7 @@ import './App.css'
 function App() {
   return (
     <Routes>
+      <Route path='/' element={<StarshipList />} />
       <Route path='/starships' element={<StarshipList />} />
       <Route path='/starships/https://swapi.dev/api/starships/:starshipId' element={<StarshipDetails />} />
     </Routes>
