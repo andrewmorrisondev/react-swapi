@@ -1,0 +1,18 @@
+.starship-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 600px;
+  height: 400px;
+  border: 2px solid #ffe81f;
+  border-radius: 10px;
+  margin: 5px;
+  > p {
+    color: #ffe81f;
+  }
+  :last-child {
+    color: #ffe81f;
+  }
+}
